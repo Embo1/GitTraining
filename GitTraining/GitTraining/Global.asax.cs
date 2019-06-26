@@ -12,6 +12,8 @@ namespace GitTraining
     {
         protected void Application_Start()
         {
+
+            //embo feature changes
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
